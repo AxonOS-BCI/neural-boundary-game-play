@@ -1,3 +1,9 @@
 AGPL-3.0-only OR LicenseRef-AxonOS-Commercial
 
-This repository is distributed for educational use under AGPL-3.0-only, with commercial licensing available by written permission from AxonOS.
+Copyright (c) 2026 The AxonOS Project (Denis Yermakou).
+
+Boundary Run (this repository) is distributed for educational use under
+AGPL-3.0-only; the full AGPL-3.0 text is published at
+https://www.gnu.org/licenses/agpl-3.0.txt. Commercial licensing is available by
+written permission from AxonOS — contact connect@axonos.org. See
+LICENSES/LicenseRef-AxonOS-Commercial.txt and COMMERCIAL_LICENSE.md.

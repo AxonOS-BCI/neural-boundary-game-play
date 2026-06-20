@@ -14,7 +14,7 @@
 
 ## Boundary Run: The Little Signal
 
-**Boundary Run** is a browser-based AxonOS educational game about cognitive privacy, consent, safe intent, and deterministic replay proof.
+**Boundary Run** is a browser-based AxonOS Educational game about cognitive privacy, consent, safe intent, and deterministic replay proof.
 
 You guide **Ari**, a small safe-intent courier, through a neural boundary field. Ari is not carrying a thought. Ari is carrying a choice.
 
@@ -68,11 +68,20 @@ Open:
 http://127.0.0.1:8080
 ```
 
-## License
+## License & Attribution
 
-See:
+**Boundary Run** is an **AxonOS Education** project.
 
-- `LICENSE`
-- `LICENSES/`
-- `COMMERCIAL_LICENSE.md`
-- `THIRD_PARTY_NOTICES.md`
+- Maintainer — Denis Yermakou, The AxonOS Project
+- Website — https://axonos.org
+- Contact — connect@axonos.org · Security — security@axonos.org
+- Source — https://github.com/AxonOS-BCI/neural-boundary-game-play
+
+Copyright © 2026 The AxonOS Project. Licensed under
+**AGPL-3.0-only OR LicenseRef-AxonOS-Commercial**. See [`LICENSE`](LICENSE),
+[`LICENSES/`](LICENSES/), [`COMMERCIAL_LICENSE.md`](COMMERCIAL_LICENSE.md), and
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+
+---
+
+The AxonOS Project · axonos.org · connect@axonos.org · security@axonos.org · github.com/AxonOS-BCI

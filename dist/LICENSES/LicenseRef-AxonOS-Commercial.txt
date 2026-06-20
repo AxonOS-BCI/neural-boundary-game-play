@@ -1,3 +1,8 @@
 LicenseRef-AxonOS-Commercial
 
-Commercial use requires explicit written permission from AxonOS. This educational browser game is not a medical device, not clinical software, and not a diagnostic or therapeutic product.
+Copyright (c) 2026 The AxonOS Project (Denis Yermakou).
+
+Commercial use of Boundary Run requires explicit written permission from AxonOS.
+To request a commercial license, contact connect@axonos.org. This educational
+browser game is not a medical device, not clinical software, and not a
+diagnostic or therapeutic product.
