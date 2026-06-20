@@ -53,3 +53,13 @@ No backend.
 bash scripts/build_web.sh dist
 python3 -m http.server 8080 -d dist
 
+
+## Support / Donations
+
+If you want to support AxonOS Education development:
+
+```text
+Dogecoin: DMwHAhqVNWf7dyEznukxCufNS5rjuP5MTp
+```
+
+Donations are optional and do not unlock gameplay advantages.
