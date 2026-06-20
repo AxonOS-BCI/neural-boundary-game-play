@@ -1,48 +1,24 @@
-<!-- SPDX-FileCopyrightText: 2026 Denis Yermakou
-SPDX-FileContributor: AxonOS
-SPDX-License-Identifier: CC-BY-NC-ND-4.0 -->
-
-# Release Notes — Neural Boundary Game v7.3.0
-
-**Neural Boundary Game v7.3.0 — Production Grand AxonOS Standard Foundation**
-
-**Production Grand AxonOS Standard Foundation — Cognitive Sovereignty**
+# Release Notes — AxonOS Education Boundary Run v8.8.3
 
 ## Summary
 
-Neural Boundary Game v7.3.0 is the Production Grand release. The deterministic
-Rust/WASM core is complete: 19 entity kinds, 7 review gates, Neural Permissions
-epoch model, Privacy Vault FSM, WCET timing budget, and 7 run modes including
-the Grand Run (four phases) and Kernel Trial (deadline pressure).
+Boundary Run v8.8.3 is a full clean browser release of the AxonOS Education game testbed.
 
-The WASM ABI is flat (41 named exports, no wasm-bindgen). The JavaScript UI
-uses ES modules with a fixed-step RAF loop. Daily seed computation mirrors the
-Rust core in JavaScript for offline verification.
+This release focuses on launch reliability, clean deployment, mobile UX, emotional character presentation, static security hygiene, and deterministic replay proof.
 
-The release includes 8 canonical replay vectors verified by SHA-256 and
-deterministic re-execution. Every vector is covered by 18 integration tests.
+## Highlights
 
-## How to verify
+- Ari safe-intent courier as the player-facing hero.
+- Kibo guardian companion with warning and celebration states.
+- Three-lane runner gameplay.
+- AxonOS actions: Audit, Revoke, Throttle, Seal Vault, Quarantine.
+- Threats: Raw Signal Leak, Stale Consent, Unauthorized App, Artifact Spike, Unsafe Stimulation, Memory Phisher.
+- Collectibles: Proof Shards, Consent Tokens, Vault Keys.
+- Replay hash and proof card.
+- Static GitHub Pages deployment.
+- No telemetry, no analytics, no backend, no service worker.
+- Full release archive, no patch chain required.
 
-```bash
-cargo run -p neural-boundary-cli --release -- verify-all
-python3 tools/validate_replay.py
-```
+## Safety statement
 
-## Known limitations
-
-- Browser QA (Playwright) requires network access; BLOCKED in the Termux environment.
-  QA specs are in `qa/` for CI execution.
-- AGPL licence text files require the full GNU GPL text; stubs are present.
-- Commercial DOGE payments disabled pending Singapore MAS legal review.
-
-## Acceptance checklist (Denis Yermakou)
-
-- [ ] Test DOGE transaction confirming wallet control (DMwHAhqVNWf7dyEznukxCufNS5rjuP5MTp)
-- [ ] Replace AGPL/CC licence stubs with full texts from gnu.org / creativecommons.org
-- [ ] Singapore legal review of DOGE commercial flow (MAS Payment Services Act)
-- [ ] Tag signature: `git tag -s v7.3.0 -m "..."`
-- [ ] Enable GitHub branch protection on main
-- [ ] Upload preview.png as GitHub repository social preview
-- [ ] Set Pages source to GitHub Actions (pages.yml)
-- [ ] Publish Article #39 on Medium (AxonOS–SYM.BOT collaboration)
+Educational simulation only. Not a medical device. No real neural data is collected.

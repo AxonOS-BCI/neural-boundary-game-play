@@ -1,0 +1,5 @@
+LicenseRef-AxonOS-Commercial
+
+Commercial licensing for AxonOS Education / Boundary Run is available only under a separate written agreement with the copyright holder.
+
+This file documents the SPDX LicenseRef used in source headers. It does not grant commercial rights by itself.

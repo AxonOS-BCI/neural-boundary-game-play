@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  boundary-run-release-gates:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build browser artifact
+        run: bash scripts/build_web.sh dist
+      - name: Final release gates
+        run: |
+          test -s dist/index.html
+          test -s dist/main.js
+          test -s dist/styles.css
+          grep -q "Boundary Run" dist/index.html
+          grep -q "Ari" dist/index.html
+          grep -q "Kibo" dist/index.html
+          grep -q "v8.8.3" dist/index.html
+          grep -q "Not a medical device" dist/index.html
+          grep -q "No real neural data" dist/index.html
+          python3 tools/boundary_run_audit.py dist
